@@ -6,8 +6,8 @@ using UnityEngine;
 public class Wander : MonoBehaviour
 {
 	public float speed = 0.5f;
-	public float directionChangeInterval = 5;
-	public float maxHeadingChange = 30;
+	public float directionChangeInterval = Random.Range(1,3);
+	public float maxHeadingChange = 2000;
 
 	CharacterController controller;
 	float heading;
@@ -21,7 +21,7 @@ public class Wander : MonoBehaviour
 
 		// Set random initial rotation
 		heading = Random.Range (0, 360);
-		transform.eulerAngles = new Vector3 (0, heading, 0);
+		transform.eulerAngles = new Vector3 (0, heading, 10);
 
 		//Get animator component
 		animator = gameObject.GetComponent<Animator>();

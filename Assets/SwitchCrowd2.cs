@@ -2,7 +2,7 @@
 using System.Collections;
 
 
-public class SwitchCrowd : MonoBehaviour 
+public class SwitchCrowd2 : MonoBehaviour 
 {
 	//public GameObject target;
 	public bool switcher;
@@ -19,10 +19,10 @@ public class SwitchCrowd : MonoBehaviour
 			switcher = true;
 		}
 		//if (Input.GetKeyDown (KeyCode.Space) == true)
-			//switcher = true;
+		//switcher = true;
 
 		if (switcher == true)
-			
+
 			gameObject.SetActive(false);
-}
+	}
 }

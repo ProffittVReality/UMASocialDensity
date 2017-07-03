@@ -45,9 +45,9 @@ public class GUI_Handler : MonoBehaviour {
 		}
 		string hand = "";
 		if (left.isOn)
-			hand = hand + "L";
+			hand = hand + "D";
 		if (right.isOn)
-			hand = hand + "R";
+			hand = hand + "S";
 		string appendText = theTime+" "+theDate +"\t"+ raName.text +"\t"+ partic.text +"\t"+ exp.text +"\t"+ age.text +
 			"\t"+ height.text +"\t"+ weight.text +"\t"+ sex.captionText.text +"\t"+ hand +"\t"+ other.text + "\r\n";
 		File.AppendAllText (path, appendText);

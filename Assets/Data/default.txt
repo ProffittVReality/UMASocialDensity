@@ -1,7 +1,182 @@
 Time	Name	P #	Exp #	Age	Height	Weight	Gender	Hand	Other
-01:59:26 6/29/2017	89	89	89	89	89	89	Male	Dense	89
-01:59:27 6/29/2017	89	89	89	89	89	89	Male	Dense	89
-02:00:04 6/29/2017	56	56	56	56	56	56	Male	Dense	56
-02:00:06 6/29/2017	56	56	56	56	56	56	Male	Dense	56
-02:01:27 6/29/2017	12	12	12	12	12	12	Male	D	12
-02:01:28 6/29/2017	12	12	12	12	12	12	Male	D	12
+01:25:12 7/18/2017	Lauren	1	1	21			Female	S	No
+10:48:13 7/26/2017	Kathryn	3	1	22	63	145	Female	S	Y Darden study
+10:48:18 7/26/2017	Kathryn	3	1	22	63	145	Female	S	Y Darden study
+09:54:03 8/1/2017	Kathryn	5	1	23	72	200	Male	S	Y played a friend's video game once
+09:13:54 9/4/2017	Anirwin	6	1	19	66	117	Female	S	
+12:41:38 9/4/2017	Eva	7	1	17			Male	D	
+01:38:55 9/4/2017	Hank	8	1	18			Female	S	
+01:50:52 9/4/2017	Hank	8	1	18			Female	S	
+02:40:26 9/4/2017	Hank	9	1	20			Female	S		
+03:40:27 9/4/2017	Hank	10	1	18			Female	D	
+10:15:03 9/5/2017	Alexis	11	1	18			Female	D	
+11:22:46 9/5/2017	Alexis	12	1	18			Female	D	
+02:15:31 9/5/2017	Alexis	13	1	18			Female	D	
+03:09:11 9/5/2017	Alexis	14	1	18			Female	S	
+04:05:26 9/5/2017	Alexis	15	1	18			Female	D	
+04:05:27 9/5/2017	Alexis	15	1	18			Female	D	
+11:24:47 9/6/2017	Eva	16	1	19			Male	D	
+03:26:44 9/6/2017	amr	17	1	18	62		Male	D	
+01:14:28 9/7/2017	Amr	18	1	18			Female	S	
+10:22:06 9/8/2017	Anirwin	19	1	18	64	125	Female	S	
+01:12:44 9/8/2017	Anirwin	20	1	18	74	165	Male	D	
+08:13:42 9/11/2017	Alexis	21	1	18			Female	S	
+10:25:25 9/11/2017	Ritika	22	1	22			Male	D	
+01:49:22 9/11/2017	Hank	22	1	18			Female	D	
+02:37:13 9/11/2017	Hank	23	1	18			Female	D	
+03:39:05 9/11/2017	Hank	24	2	18			Female	S	
+11:17:19 9/12/2017	Eva	25	1	18			Female	S	
+01:15:01 9/12/2017	AM	26	1	18			Female	D	
+09:19:06 9/13/2017	Anirwin	27	1	18	63	125	Female	D	
+03:06:16 9/13/2017	Ritika	28	1	19			Female	S	about an hour of VR experience, gaming
+04:08:47 9/13/2017	Ritika	29	1	18			Female	D	
+08:17:03 9/14/2017	am	30	1	19			Female	S	
+11:22:05 9/14/2017	Amr	26		18			Female	D	
+05:26:46 9/14/2017	Jordan	27	1	21			Female	D	
+05:26:59 9/14/2017	Jordan	27	1	21			Female	D		
+01:29:08 9/15/2017	Anirwin	34	1	18	70	140	Male	S	
+10:30:30 9/19/2017	Jordan	35	1	18			Female	D	
+11:14:43 9/19/2017	Jordan	36	1	18			Female	D	
+10:05:11 9/20/2017	Ritika	37	1	18			Female	S	
+03:14:34 9/20/2017	Ritika	38	1	21			Female	S	
+04:06:52 9/20/2017	Ritika	39	1	18			Male	S	
+11:14:00 9/21/2017	Amr	35		18			Male	D	
+12:05:36 9/21/2017	Amr	36		18			Male	D	
+02:24:00 9/21/2017	Hank	41	1	22			Male	S	
+11:14:12 9/22/2017	Eva	41	balloons	18			Female	D	N
+08:14:57 9/25/2017	Am	41	1	19			Female	S	n
+11:41:30 9/25/2017	Eva	41	Balloons	18			Female	S	N
+12:49:56 9/25/2017	Eva	42	balloons	18			Female	D	
+08:17:37 9/26/2017	Am	43	1	18			Male	S	
+08:57:04 9/26/2017	Am	44	1	18			Female	D	y
+10:22:19 9/26/2017	am	45	1	18			Female	S	n
+11:05:42 9/26/2017	am	46	1	18			Female	S	n
+01:04:01 9/26/2017	am	47	1	19			Female	D	n
+03:40:48 9/26/2017	Hank	9	1	19			Female	D	
+08:12:13 9/27/2017	Am	48	1	18			Female	D	
+03:13:34 9/27/2017	Ritika	49	1	18			Female	D	
+04:06:14 9/27/2017	Ritika	50	1	18			Female	D	
+08:17:08 9/28/2017	am	51	1	18			Female	S	
+09:38:20 9/28/2017	Ritika	52	1	18			Female		
+12:30:05 9/28/2017	amr	17		18			Male	D	
+01:07:42 9/28/2017	Amr	18		19			Female	S	
+08:11:25 9/29/2017	am	55	1	18			Female	D	y
+11:20:35 9/29/2017	Eva	56	Balloons	18			Male	D	Y
+04:08:19 9/29/2017	Ritika	57	1	19			Female	S	
+04:12:54 10/4/2017	Ritika	58	1	19			Female	S	
+12:18:23 10/5/2017	Amr	24		18			Female	D	
+01:15:35 10/5/2017	Amr	25		18			Female	S	
+11:16:31 10/6/2017	Eva	60	Balloons	19			Female	D	N
+01:12:05 10/6/2017	Anirwin	61	1	18	63	135	Female	S	
+02:19:54 10/6/2017	Ritika	62	1	18			Female	D	
+03:07:45 10/6/2017	Ritika	63	2	18			Female	S	
+12:16:43 10/9/2017	Eva	64	Balloons	19			Female	D	N
+01:49:43 10/10/2017	Hank	65	1	20			Male	S	
+02:50:30 10/10/2017	Hank	66	1	20			Female	D	
+10:06:48 10/11/2017	Ritika	67	1	18			Male	S	
+02:17:32 10/11/2017	amr	34		17			Female	D	
+02:19:59 10/11/2017	Amr	34		17			Female	D	
+10:12:39 10/12/2017	Jordan	69	2	18			Female	S	
+11:52:40 10/12/2017	Hank	70	1	18			Female	D	
+01:14:38 10/12/2017	Hank	71	1	20			Female	S	
+10:36:47 11/16/2017	Jordan	72	1	19			Male	D	
+10:51:35 11/16/2017	Jordan	73	1	18			Female	S	
+11:02:16 11/16/2017	Jordan	74	1	20			Female	D	
+11:16:14 11/16/2017	Jordan	75	1	18			Female	S	
+11:49:53 11/16/2017	Hank	76	1	18			Male	D	
+12:05:48 11/16/2017	Hank	77	1	18			Male	S	N
+12:08:50 11/16/2017	Hank	77	1	18			Male	S	
+12:28:58 11/16/2017	Hank	78	1	20			Male	D	N
+12:48:27 11/16/2017	Hank	79	1	18			Male	S	N
+12:51:44 11/16/2017	Hank	79	1	18			Male	S	N
+01:06:33 11/16/2017	Hank	80	1	18			Male	S	N
+02:05:27 11/16/2017	Hank	81	1	19			Male	D	Very little
+02:25:46 11/16/2017	Hank	82	1	18			Male	D	N
+01:33:17 11/28/2017	am	83	1	18			Female	S	n
+01:54:24 11/29/2017	Jordan	84	1	18			Female	D	No Vr experience
+02:06:15 11/29/2017	Jordan	85		19			Male	S	No VR experience
+02:06:18 12/1/2017	Ritika	86		18			Male	S	Used VR befor
+02:06:22 12/1/2017	Ritika	86		18			Male	S	Used VR befor
+02:20:05 12/1/2017	Ritika	87		20			Male	D	
+02:34:10 12/1/2017	Ritika	88		18			Female	S	
+03:44:11 12/5/2017	Hank	89	1	18			Female	D	
+03:34:07 1/30/2018							Male		
+05:09:08 1/31/2018							Male		
+05:09:08 1/31/2018							Male		
+05:09:11 1/31/2018							Male	D	
+05:09:11 1/31/2018							Male	D	
+05:09:13 1/31/2018							Male	D	
+05:09:15 1/31/2018							Male	D	
+05:09:15 1/31/2018							Male	D	
+05:09:17 1/31/2018							Male	D	
+05:09:17 1/31/2018							Male	D	
+05:09:17 1/31/2018							Male	D	
+05:09:17 1/31/2018							Male	D	
+05:12:53 1/31/2018							Male		z
+05:14:14 1/31/2018							Male		z
+05:14:15 1/31/2018							Male		z
+05:38:27 1/31/2018							Male		
+05:38:29 1/31/2018							Male		x
+05:38:30 1/31/2018							Male		x
+05:38:31 1/31/2018							Male		x
+05:38:31 1/31/2018							Male		x
+05:40:01 1/31/2018							Male		
+05:40:01 1/31/2018							Male		
+05:40:02 1/31/2018							Male		
+05:47:48 1/31/2018							Male		
+05:47:48 1/31/2018							Male		
+05:51:52 1/31/2018							Male		
+05:14:43 2/1/2018							Male		
+05:14:51 2/1/2018							Male		
+05:14:51 2/1/2018							Male		
+05:14:51 2/1/2018							Male		
+05:18:17 2/1/2018							Male		
+05:18:17 2/1/2018							Male		
+05:18:26 2/1/2018							Male		
+05:18:28 2/1/2018							Male		
+05:18:29 2/1/2018							Male		
+05:18:29 2/1/2018							Male		
+05:18:29 2/1/2018							Male		
+05:21:10 2/1/2018							Male		
+05:21:34 2/1/2018							Male		
+05:21:34 2/1/2018							Male		
+05:21:45 2/1/2018							Male		
+05:25:41 2/1/2018							Male		z
+05:25:41 2/1/2018							Male		z
+05:25:59 2/1/2018							Male		z
+05:30:56 2/1/2018							Male		z
+05:37:33 2/1/2018							Male		z
+05:40:45 2/1/2018							Male		z
+05:41:23 2/1/2018							Male		z
+06:15:56 2/6/2018							Male		
+06:15:56 2/6/2018							Male		
+06:16:17 2/6/2018							Male		
+06:26:11 2/6/2018							Male		
+06:27:21 2/6/2018							Male		
+06:31:57 2/6/2018							Male		
+06:34:09 2/6/2018							Male		
+06:34:40 2/6/2018							Male		
+06:34:40 2/6/2018							Male		
+06:40:59 2/6/2018							Male		
+06:41:07 2/6/2018							Male		
+07:10:42 2/6/2018							Male		
+07:13:55 2/6/2018							Male		
+07:16:05 2/6/2018							Male		
+07:16:06 2/6/2018							Male		
+07:23:10 2/6/2018							Male		
+08:19:20 2/7/2018							Male	D	
+08:34:35 2/7/2018							Male	S	
+01:22:12 2/23/2018	t	t	t	t	t	t	Male	D	t
+01:23:13 2/23/2018	t	t	t	t	t	t	Male	D	t
+01:23:14 2/23/2018	t	t	t	t	t	t	Male	D	t
+01:23:15 2/23/2018	t	t	t	t	t	t	Male	D	t
+01:23:16 2/23/2018	t	t	t	t	t	t	Male	D	t
+01:23:16 2/23/2018	t	t	t	t	t	t	Male	D	t
+01:23:16 2/23/2018	t	t	t	t	t	t	Male	D	t
+01:23:16 2/23/2018	t	t	t	t	t	t	Male	D	t
+01:23:16 2/23/2018	t	t	t	t	t	t	Male	D	t
+01:23:17 2/23/2018	t	t	t	t	t	t	Male	D	t
+01:23:17 2/23/2018	t	t	t	t	t	t	Male	D	t
+01:23:17 2/23/2018	t	t	t	t	t	t	Male	D	t
+01:23:17 2/23/2018	t	t	t	t	t	t	Male	D	t
+01:23:18 2/23/2018	t	t	t	t	t	t	Male	D	t

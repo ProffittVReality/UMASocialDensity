@@ -6,7 +6,8 @@ using UnityEngine;
 public class Wander : MonoBehaviour
 {
 	public float speed = 0.5f;
-	public float directionChangeInterval = Random.Range(1,3);
+	//public float directionChangeInterval = Random.Range(1,3);
+	public float directionChangeInterval = 3;
 	public float maxHeadingChange = 2000;
 
 	CharacterController controller;

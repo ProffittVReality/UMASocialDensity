@@ -6,9 +6,6 @@ using System.IO;
 using System.Collections;
 using System.Collections.Generic;
 using UMA;
-//echo's add
-using UnityEngine.SceneManagement;
-//
 
 public class UMARecipeCrowd : MonoBehaviour
 {
@@ -40,29 +37,8 @@ public class UMARecipeCrowd : MonoBehaviour
 
 	public Wander wanderScript;
 
-	//echo's add
-	//array x, x, z, z (4 values for each parametized section)
-	//row in front of user [0, 5, -22, 14]
-	//row perpendicular to user [-23, 4, -4, -1]
-	//row next to user [0, 25, 12, 18]
-	public bool schoolscene = false;
-	public int[][] locations = new int[][] {
-		new int[] {0, 5, -22, 14},
-		new int[] {0, 5, -22, 14}, //section added 2x for higher probability
-		new int[] {-23, 4, -4, -1},
-		new int[] {0, 25, 12, 18}};
-	//
-
 	void Awake()
 	{
-
-		//echo's add
-		Scene currentScene = SceneManager.GetActiveScene();
-		if (currentScene.name == "umasceneschool") {
-			schoolscene = true;
-		}
-		//
-	
 		if (space <= 0)
 			space = 1f;
 
@@ -118,18 +94,6 @@ public class UMARecipeCrowd : MonoBehaviour
 			return null;
 
 		Vector3 umaPos = new Vector3((spawnX - crowdSize.x / 2f) * space, 0f, (spawnY - crowdSize.y / 2f) * space);
-
-		//Echo's insertion code
-		//code generates umas in random locations within x,z parameters of sidewalks instead of default grid (above)
-		if (schoolscene) {
-			int n = Random.Range (0, locations.Length);
-			int[] spot = locations [n];
-			//print (n);
-			int x = Random.Range (spot[0], spot[1]);
-			int z = Random.Range (spot[2], spot[3]);
-			umaPos = new Vector3 (x, 0f, z);
-		}
-		//
 
 		if (spawnY < crowdSize.y)
 		{

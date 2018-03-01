@@ -1,6 +1,6 @@
 ﻿//======= Copyright (c) Valve Corporation, All rights reserved. ===============
 // UNITY_SHADER_NO_UPGRADE
-Shader "Custom/SteamVR_ClearAll" {
+Shader "Custom/SteamVR_BlitFlip" {
 	Properties { _MainTex ("Base (RGB)", 2D) = "white" {} }
 
 	CGINCLUDE
@@ -21,20 +21,20 @@ Shader "Custom/SteamVR_ClearAll" {
 #else
 		o.pos = mul(UNITY_MATRIX_MVP, v.vertex);
 #endif
-		o.tex = v.texcoord;
+		o.tex.x = v.texcoord.x;
+		o.tex.y = 1 - v.texcoord.y;
 		return o;
 	}
 
 	float4 frag(v2f i) : COLOR {
-		return float4(0, 0, 0, 0);
+		return tex2D(_MainTex, i.tex);
 	}
 
 	ENDCG
 
 	SubShader {
-		Tags{ "Queue" = "Background" }
 		Pass {
-			ZTest Always Cull Off ZWrite On
+			ZTest Always Cull Off ZWrite Off
 			Fog { Mode Off }
 
 			CGPROGRAM
@@ -44,4 +44,3 @@ Shader "Custom/SteamVR_ClearAll" {
 		}
 	}
 }
-

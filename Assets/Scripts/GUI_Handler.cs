@@ -11,7 +11,7 @@ public class GUI_Handler : MonoBehaviour {
 	public string FileName; //Title the file you want to export data to!  Will be saved in resources.
 
 	private bool isShowing;
-	public InputField raName, partic,exp,age,height,weight,other; 
+	public InputField raName, partic,exp,age,height,weight, time, other; 
 	//TODO: Ask around to see if there's a more efficient and elegant method to get references to all of the input fields!
 	public Toggle left, right;
 	public Dropdown sex;
@@ -49,7 +49,7 @@ public class GUI_Handler : MonoBehaviour {
 		if (right.isOn)
 			hand = hand + "S";
 		string appendText = theTime+" "+theDate +"\t"+ raName.text +"\t"+ partic.text +"\t"+ exp.text +"\t"+ age.text +
-			"\t"+ height.text +"\t"+ weight.text +"\t"+ sex.captionText.text +"\t"+ hand +"\t"+ other.text + "\r\n";
+			"\t"+ height.text +"\t"+ weight.text +"\t"+ sex.captionText.text +"\t"+ hand +"\t"+ time.text + "\t" + other.text + "\r\n";
 		File.AppendAllText (path, appendText);
 	}
 

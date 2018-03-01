@@ -4,6 +4,8 @@
 //
 //=============================================================================
 
+#if !(UNITY_5_3 || UNITY_5_2 || UNITY_5_1 || UNITY_5_0)
+
 using UnityEngine;
 using UnityEditor;
 
@@ -45,4 +47,6 @@ public class SteamVR_Preferences
 		EditorGUILayout.EndVertical();
 	}
 }
+
+#endif
 

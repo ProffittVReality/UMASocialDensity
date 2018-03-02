@@ -8,6 +8,7 @@ public class Switcher3 : MonoBehaviour {
 	public GameObject target;
 	public GameObject target2;
 <<<<<<< HEAD
+<<<<<<< HEAD
 	public bool dense = false;
 	public bool sparse = false;
 	public bool start = false;
@@ -21,16 +22,22 @@ public class Switcher3 : MonoBehaviour {
 		count = 0;
 		c = blackBlock.GetComponent<Renderer> ().material.color;
 =======
+=======
+>>>>>>> parent of 898e409... outdoor scene update
 	//public bool switcher;
 
 
 	void Awake() {
 		//switcher = false;
+<<<<<<< HEAD
+>>>>>>> parent of 898e409... outdoor scene update
+=======
 >>>>>>> parent of 898e409... outdoor scene update
 	}
 	
 	// Update is called once per frame
 	void Update () {
+<<<<<<< HEAD
 <<<<<<< HEAD
 		if (start) {
 			if (count == 0) {
@@ -64,6 +71,8 @@ public class Switcher3 : MonoBehaviour {
 	void setSparse(){
 		sparse = true;
 =======
+=======
+>>>>>>> parent of 898e409... outdoor scene update
 		if (Input.GetKeyDown(method))
 			//Debug.Log("key was pressed");
 			target.SetActive(true); 
@@ -74,6 +83,7 @@ public class Switcher3 : MonoBehaviour {
 			//switcher = true;
 		//if (switcher == true)
 			
+<<<<<<< HEAD
 >>>>>>> parent of 898e409... outdoor scene update
 	}
 	void exportStart(){
@@ -136,6 +146,8 @@ public class Switcher3 : MonoBehaviour {
 	}
 	void setSparse(){
 		sparse = true;
+=======
+>>>>>>> parent of 898e409... outdoor scene update
 	}
 	void exportStart(){
 		start = true;

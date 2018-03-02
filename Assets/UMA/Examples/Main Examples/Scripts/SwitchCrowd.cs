@@ -6,7 +6,7 @@ public class SwitchCrowd : MonoBehaviour
 {
 	//public GameObject target;
 	public bool switcher;
-	float timeLeft = 120.0f;
+	float timeLeft = 30.0f;
 
 	void Awake() {
 		switcher = false;

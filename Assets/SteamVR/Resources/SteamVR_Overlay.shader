@@ -1,6 +1,6 @@
 ﻿//======= Copyright (c) Valve Corporation, All rights reserved. ===============
 // UNITY_SHADER_NO_UPGRADE
-Shader "Custom/SteamVR_ClearAll" {
+Shader "Custom/SteamVR_Overlay" {
 	Properties { _MainTex ("Base (RGB)", 2D) = "white" {} }
 
 	CGINCLUDE
@@ -16,25 +16,25 @@ Shader "Custom/SteamVR_ClearAll" {
 
 	v2f vert(appdata_base v) {
 		v2f o;
-#if UNITY_VERSION >= 540
-		o.pos = UnityObjectToClipPos(v.vertex);
-#else
-		o.pos = mul(UNITY_MATRIX_MVP, v.vertex);
-#endif
+		o.pos = v.vertex;
 		o.tex = v.texcoord;
 		return o;
 	}
 
 	float4 frag(v2f i) : COLOR {
-		return float4(0, 0, 0, 0);
+		return tex2D(_MainTex, i.tex);
+	}
+
+	float4 frag_linear(v2f i) : COLOR {
+		return pow(tex2D(_MainTex, i.tex), 2.2);
 	}
 
 	ENDCG
 
 	SubShader {
-		Tags{ "Queue" = "Background" }
 		Pass {
-			ZTest Always Cull Off ZWrite On
+			Blend SrcAlpha OneMinusSrcAlpha
+			ZTest Always Cull Off ZWrite Off
 			Fog { Mode Off }
 
 			CGPROGRAM
@@ -42,6 +42,15 @@ Shader "Custom/SteamVR_ClearAll" {
 			#pragma fragment frag
 			ENDCG
 		}
+		Pass {
+			Blend SrcAlpha OneMinusSrcAlpha
+			ZTest Always Cull Off ZWrite Off
+			Fog { Mode Off }
+
+			CGPROGRAM
+			#pragma vertex vert
+			#pragma fragment frag_linear
+			ENDCG
+		}
 	}
 }
-

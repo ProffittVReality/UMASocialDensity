@@ -17,6 +17,8 @@ ExportedObj/
 *.pidb
 *.booproj
 *.svd
+
+# ignore a file type
 *.wav
 
 # Unity3D generated meta files

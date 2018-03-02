@@ -9,6 +9,7 @@ public class Switcher3 : MonoBehaviour {
 	public GameObject target2;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	public bool dense = false;
 	public bool sparse = false;
 	public bool start = false;
@@ -26,12 +27,17 @@ public class Switcher3 : MonoBehaviour {
 =======
 =======
 >>>>>>> parent of 898e409... outdoor scene update
+=======
+>>>>>>> parent of 898e409... outdoor scene update
 	//public bool switcher;
 
 
 	void Awake() {
 		//switcher = false;
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 898e409... outdoor scene update
+=======
 >>>>>>> parent of 898e409... outdoor scene update
 =======
 >>>>>>> parent of 898e409... outdoor scene update
@@ -39,6 +45,7 @@ public class Switcher3 : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 		if (start) {
@@ -79,11 +86,14 @@ public class Switcher3 : MonoBehaviour {
 >>>>>>> parent of 898e409... outdoor scene update
 =======
 >>>>>>> parent of 898e409... outdoor scene update
+=======
+>>>>>>> parent of 898e409... outdoor scene update
 		if (Input.GetKeyDown(method))
 			//Debug.Log("key was pressed");
 			target.SetActive(true); 
 		if (target.active)
 			target2.SetActive(false);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 	}
@@ -163,12 +173,17 @@ public class Switcher3 : MonoBehaviour {
 =======
 =======
 >>>>>>> parent of 898e409... outdoor scene update
+=======
+>>>>>>> parent of 898e409... outdoor scene update
 
 
 			//switcher = true;
 		//if (switcher == true)
 			
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 898e409... outdoor scene update
+=======
 >>>>>>> parent of 898e409... outdoor scene update
 =======
 >>>>>>> parent of 898e409... outdoor scene update

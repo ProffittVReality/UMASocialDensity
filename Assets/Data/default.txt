@@ -180,3 +180,6 @@ Time	Name	P #	Exp #	Age	Height	Weight	Gender	Hand	Other
 01:23:17 2/23/2018	t	t	t	t	t	t	Male	D	t
 01:23:17 2/23/2018	t	t	t	t	t	t	Male	D	t
 01:23:18 2/23/2018	t	t	t	t	t	t	Male	D	t
+04:43:49 3/2/2018							Male	S	0.5	
+04:46:12 3/2/2018							Male	S	1	
+04:46:33 3/2/2018							Male	D	1	

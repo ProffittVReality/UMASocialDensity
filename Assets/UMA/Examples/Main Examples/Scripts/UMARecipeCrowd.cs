@@ -131,8 +131,6 @@ public class UMARecipeCrowd : MonoBehaviour
         }
         //
 
-        if (spawnY < crowdSize.y)
-
 		if (spawnY < crowdSize.y)
 
 		{

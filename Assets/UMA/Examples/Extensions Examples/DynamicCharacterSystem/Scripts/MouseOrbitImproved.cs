@@ -117,23 +117,23 @@ public class MouseOrbitImproved : MonoBehaviour
             {
                 if (dstTarget != null)
                 {
-                    Transform rendTrans = dstTarget.Find("UMARenderer");
+                    Transform rendTrans = dstTarget.FindChild("UMARenderer");
                     if(rendTrans == null)
                         return dstTarget.position;
                     Renderer rend = rendTrans.GetComponent<Renderer>();
                     float height = rend.bounds.size.y;
                     distance = (height / 2) * 1.75f;
-                    return dstTarget.Find("Root").position + new Vector3(0, height / 2, 0);
+                    return dstTarget.FindChild("Root").position + new Vector3(0, height / 2, 0);
                 }
                 else
                 {
-                    Transform rendTrans = target.Find("UMARenderer");
+                    Transform rendTrans = target.FindChild("UMARenderer");
                     if(rendTrans == null)
                         return target.position;
                     Renderer rend = rendTrans.GetComponent<Renderer>();
                     float height = rend.bounds.size.y;
                     distance = (height / 2) * 1.75f;
-                    return target.Find("Root").position + new Vector3(0, height / 2, 0);
+                    return target.FindChild("Root").position + new Vector3(0, height / 2, 0);
                 }
             }
         }

@@ -6,7 +6,7 @@ public class SwitchCrowd2 : MonoBehaviour
 {
 	//public GameObject target;
 	public bool switcher;
-	float timeLeft = 30.0f;
+	float timeLeft = 120.0f;
 
 	void Awake() {
 		switcher = false;
@@ -15,14 +15,16 @@ public class SwitchCrowd2 : MonoBehaviour
 	void Update () 
 	{
 		timeLeft -= Time.deltaTime;
+
 		if (timeLeft < 0) {
 			switcher = true;
 		}
 		//if (Input.GetKeyDown (KeyCode.Space) == true)
 		//switcher = true;
 
-		if (switcher == true)
+		if (switcher == true) {
 
-			gameObject.SetActive(false);
+			gameObject.SetActive (false);
+		}
 	}
 }

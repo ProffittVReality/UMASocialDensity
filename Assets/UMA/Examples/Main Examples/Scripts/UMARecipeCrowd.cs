@@ -6,9 +6,13 @@ using System.IO;
 using System.Collections;
 using System.Collections.Generic;
 using UMA;
+<<<<<<< HEAD
 //echo's add
 using UnityEngine.SceneManagement;
 //
+=======
+
+>>>>>>> parent of 898e409... outdoor scene update
 public class UMARecipeCrowd : MonoBehaviour
 {
 	public UMAContext context;
@@ -38,6 +42,7 @@ public class UMARecipeCrowd : MonoBehaviour
 	public UMADataEvent CharacterUpdated;
 
 	public Wander wanderScript;
+<<<<<<< HEAD
     //echo's add
     //array x, x, z, z (4 values for each parametized section)
     //row in front of user [0, 5, -22, 14]
@@ -52,6 +57,10 @@ public class UMARecipeCrowd : MonoBehaviour
     //
 	void Awake()
 
+=======
+
+	void Awake()
+>>>>>>> parent of 898e409... outdoor scene update
 	{
 		if (space <= 0)
 			space = 1f;
@@ -118,6 +127,7 @@ public class UMARecipeCrowd : MonoBehaviour
 
 		Vector3 umaPos = new Vector3((spawnX - crowdSize.x / 2f) * space, 0f, (spawnY - crowdSize.y / 2f) * space);
 
+<<<<<<< HEAD
         //Echo's insertion code
         //code generates umas in random locations within x,z parameters of sidewalks instead of default grid (above)
         if (schoolscene)
@@ -133,6 +143,8 @@ public class UMARecipeCrowd : MonoBehaviour
 
         if (spawnY < crowdSize.y)
 
+=======
+>>>>>>> parent of 898e409... outdoor scene update
 		if (spawnY < crowdSize.y)
 
 		{

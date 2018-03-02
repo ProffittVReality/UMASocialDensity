@@ -20,8 +20,11 @@ ExportedObj/
 
 # ignore a file type
 *.wav
+<<<<<<< HEAD
 Assets\newdensesound.wav
 Assets\newsparsesound.wav
+=======
+>>>>>>> 50c83f3ffaa352172676b9dbe54db6575f5e67b5
 
 # Unity3D generated meta files
 *.pidb.meta
